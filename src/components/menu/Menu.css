@@ -34,8 +34,7 @@
     background-color: var(--color4);
 }
 
-.menu-mobile {    
-    box-shadow: 15px 15px 0 var(--color5);
+.menu-mobile {
     position: relative;
 }
 
