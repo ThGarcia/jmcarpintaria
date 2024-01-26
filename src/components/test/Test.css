@@ -1,0 +1,24 @@
+.test {
+    position: relative;
+    height: 100%;
+}
+
+.test-img {
+    padding: 0 10%;
+    width: 100%;
+}
+
+.test p {
+    position: absolute;
+    margin: -45% 20% 0 20%;
+    font-family: var(--font-cursive);
+    font-weight: bolder;
+    font-size: 3rem;
+    color: var(--color2);
+    text-shadow: 5px 5px 10px var(--color5);
+    text-align: justify;
+    background-color: #62492782;
+    padding: 50px;
+    border-radius: 50px;
+    box-shadow: 0 0 20px var(--color5);
+}

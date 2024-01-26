@@ -1,0 +1,97 @@
+.menu {
+    width: 80%;
+    margin-left: 10%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+.menu-desktop {
+    display: flex;
+}
+.menu-logo {
+    background-color: var(--color3);
+    padding: 20px;
+    border-radius: 0 0 25px 25px;
+}
+
+.menu-buttons {
+    background-color: var(--color3);
+    padding: 20px;
+    color: var(--color5);
+    font-size: 24px;
+    font-weight: 900;
+    border-radius: 0 0 25px 25px;
+    text-align: center;
+    font-family: var(--font);
+    height: auto;
+    /* pensa na borda igual botoes antigo, embaixo e direita, e emcima e esqeurda quando selecionado */
+}
+
+.menu-buttons:hover {
+    color: var(--color1);
+    background-color: var(--color4);
+}
+
+.menu-mobile {    
+    box-shadow: 15px 15px 0 var(--color5);
+    position: relative;
+}
+
+.menu-mobile button {
+    cursor: pointer;
+}
+
+.menu-options {
+    border-radius: 25px;
+    background-color: var(--color4);
+    position: absolute;
+    right: 0;
+    top: 69px;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: 900;
+    font-family: var(--font);
+    text-align: center;
+}
+
+.menu-options a {
+    padding: 10px 20px;
+    width: 100%;
+    color: var(--color2);
+}
+
+.menu-options a:hover {
+    border-radius: 25px;
+    background-color: var(--color3);
+    color: var(--color5);
+}
+
+@media screen and (min-width: 1025px) {
+    .menu-mobile {
+        display: none;
+    }
+
+    .menu img {
+        width: 250px;
+    }
+    
+}
+
+@media screen and (max-width: 1024px) {
+    .menu-desktop {
+        display: none;
+    }
+
+    .menu {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .menu img {
+        width: 150px;
+    }
+    
+}

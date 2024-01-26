@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  border: none;
+  /*border: 1px solid black;*/
+}
+
+body {
+  background-color: var(--color2);
+}
+
+:root {
+  --button-text: white;
+  --button-color: #c98b5a;
+  --button-hover-text: #892201;
+  --button-hover-color: #df8402;
+  /* colors */
+  --color1: #E2DFD8;
+  --color2: #E9DABC;
+  --color3: #E0C490;
+  --color4: #8D723E;
+  --color5: #624927;
+  /* fonts */
+  --font: 'Roboto', sans-serif;
+  --font-cursive: 'Parisienne', cursive;
+}
+
+.page {
+  width: 100%;
+  /*background-image: url('./images/background.png');*/
+}
+
+@media print {
+  .page {
+    background-image: none;
+  }
+} 

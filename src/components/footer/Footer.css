@@ -1,0 +1,39 @@
+.footer {
+    margin-left: 10%;
+    width: 80%;
+    padding: 20px;
+    background-color: var(--color3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+.footer a {
+    font-family: var(--font);
+    font-weight: 900;
+    font-size: 24px;
+    color: var(--color4);
+}
+
+.footer a:hover {
+    color: var(--color5);
+}
+
+.footer-local a {
+    align-items: center;
+    display: flex;
+    gap: 5px;
+}
+
+.footer-contact {
+    display: flex;
+    gap: 5px;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer {
+        width: 100%;
+        margin-left: 0;
+    }
+}
