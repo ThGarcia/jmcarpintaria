@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/jmcarpintaria/static/css/main.36e243e8.css",
+    "main.css": "/jmcarpintaria/static/css/main.0c3ade33.css",
     "main.js": "/jmcarpintaria/static/js/main.c128e078.js",
     "static/js/787.5d3c65d9.chunk.js": "/jmcarpintaria/static/js/787.5d3c65d9.chunk.js",
     "static/media/about-img.png": "/jmcarpintaria/static/media/about-img.99989e0b9e1e2c5fa4ec.png",
@@ -12,12 +12,12 @@
     "static/media/logo.png": "/jmcarpintaria/static/media/logo.ac1080420ceffd2ce216.png",
     "static/media/card-sauna.png": "/jmcarpintaria/static/media/card-sauna.d98e85ca72a2d2630f07.png",
     "index.html": "/jmcarpintaria/index.html",
-    "main.36e243e8.css.map": "/jmcarpintaria/static/css/main.36e243e8.css.map",
+    "main.0c3ade33.css.map": "/jmcarpintaria/static/css/main.0c3ade33.css.map",
     "main.c128e078.js.map": "/jmcarpintaria/static/js/main.c128e078.js.map",
     "787.5d3c65d9.chunk.js.map": "/jmcarpintaria/static/js/787.5d3c65d9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.36e243e8.css",
+    "static/css/main.0c3ade33.css",
     "static/js/main.c128e078.js"
   ]
 }
