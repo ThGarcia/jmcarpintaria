@@ -30,13 +30,16 @@ body {
   --font-cursive: 'Parisienne', cursive;
 }
 
-.page {
+html, body {
   width: 100%;
+}
+
+.page {
   /*background-image: url('./images/background.png');*/
 }
 
-@media print {
-  .page {
-    background-image: none;
-  }
-} 
+
+/* Estilizando para navegadores WebKit (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 0; /* largura da barra de rolagem */
+}

@@ -22,13 +22,10 @@
     object-fit: cover;
 }
 
-.about-img img {
-    border-radius: 25px;
-}
-
 .about-text {
+    width: 40%;
     position: absolute;
-    left: 15px;
+    left: 10%;
     bottom: 10%;
     text-align: justify;
     padding: 25px;
@@ -58,6 +55,8 @@
     }
 
     .about-text {
+        left: 15px;
+        width: 100%;
         top: 60%;
         bottom: auto;
         width: calc(100% - 30px);
