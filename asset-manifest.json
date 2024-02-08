@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/jmcarpintaria/static/css/main.dbbb7f1d.css",
-    "main.js": "/jmcarpintaria/static/js/main.c128e078.js",
+    "main.css": "/jmcarpintaria/static/css/main.1124580c.css",
+    "main.js": "/jmcarpintaria/static/js/main.a62ac978.js",
     "static/js/787.5d3c65d9.chunk.js": "/jmcarpintaria/static/js/787.5d3c65d9.chunk.js",
     "static/media/about-img.png": "/jmcarpintaria/static/media/about-img.99989e0b9e1e2c5fa4ec.png",
     "static/media/info.png": "/jmcarpintaria/static/media/info.2803d26e2fa338f75c89.png",
@@ -12,12 +12,12 @@
     "static/media/logo.png": "/jmcarpintaria/static/media/logo.ac1080420ceffd2ce216.png",
     "static/media/card-sauna.png": "/jmcarpintaria/static/media/card-sauna.d98e85ca72a2d2630f07.png",
     "index.html": "/jmcarpintaria/index.html",
-    "main.dbbb7f1d.css.map": "/jmcarpintaria/static/css/main.dbbb7f1d.css.map",
-    "main.c128e078.js.map": "/jmcarpintaria/static/js/main.c128e078.js.map",
+    "main.1124580c.css.map": "/jmcarpintaria/static/css/main.1124580c.css.map",
+    "main.a62ac978.js.map": "/jmcarpintaria/static/js/main.a62ac978.js.map",
     "787.5d3c65d9.chunk.js.map": "/jmcarpintaria/static/js/787.5d3c65d9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dbbb7f1d.css",
-    "static/js/main.c128e078.js"
+    "static/css/main.1124580c.css",
+    "static/js/main.a62ac978.js"
   ]
 }
